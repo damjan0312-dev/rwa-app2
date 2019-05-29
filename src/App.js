@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Router } from 'react-router-dom';
 import Animals from './components/Animals';
 import AnimalForm from './components/AnimalForm';
 import AnimalDetail from './components/AnimalDetails';
+import Doctors from './components/doctorComponents/Doctors';
+
 import Navbars from './components/layouts/Navbar';
 
 import history from './history';
@@ -37,6 +39,15 @@ class App extends Component {
 								<div>
 									<Navbars />
 									<AnimalDetail />
+								</div>
+							)}
+						/>
+						<Route 
+							path="/doctors" 
+							render={() => (
+								<div>
+									<Navbars />
+									<Doctors />
 								</div>
 							)}
 						/>

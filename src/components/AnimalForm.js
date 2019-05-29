@@ -16,6 +16,7 @@ class AnimalForm extends Component {
 			species: '',
 			scientificName: '',
 			illnes: '',
+			doctorID: 4
 		};
 
 		this.onChange = this.onChange.bind(this);

@@ -7,6 +7,7 @@ import { fetchAllAnimals }  from '../api/api';
 import { watchNewAnimalRequest } from './newAnimalSaga';
 import { watchSelectedAnimal } from './selectAnimalSaga';
 import { watchDeleteAnimalRequest } from './deleteAnimalSaga';
+import { watchFetchDoctors } from './doctorSagas/fetchDoctorsSaga';
 
 
 function* getAnimals(action) {
@@ -38,7 +39,8 @@ export default function* rootSaga(){
         getAnimals(),
         fork(watchNewAnimalRequest),
         fork(watchSelectedAnimal),
-        fork(watchDeleteAnimalRequest)
+        fork(watchDeleteAnimalRequest),
+        fork(watchFetchDoctors)
 
     ]);
 }

@@ -4,6 +4,8 @@ import { newAnimalRequest } from '../actions/actions';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
+
+
 //css
 import '../style/home.css';
 
@@ -35,6 +37,7 @@ class AnimalForm extends Component {
 			animalScientificName: this.state.scientificName,
 			animalStateDescription: this.state.illnes,
 			animalPicture: 'http://izuum.com/noimage.jpg',
+			doctorID: 1
 		};
 
 		this.props.newAnimalRequest(newAnimal);
@@ -42,7 +45,10 @@ class AnimalForm extends Component {
 
 	render() {
 		return (
-			<div id="add-section" className="d-flex justify-content-center pt-3">
+			
+
+			<div id="add-section" className="d-flex justify-content-end pt-3 pr-5">
+
 				<form onSubmit={this.onSubmit}>
 					<h1> Add Animal to Our Community </h1>
 					<div>

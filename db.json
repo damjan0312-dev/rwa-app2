@@ -80,14 +80,6 @@
       "animalPicture": "https://turntable.kagiso.io/images/Kangaroo_johnny_bravo.width-400.jpg",
       "id": 9,
       "doctorID": 3
-    },
-    {
-      "animalName": "",
-      "animalSpecies": "",
-      "animalScientificName": "",
-      "animalStateDescription": "",
-      "animalPicture": "http://izuum.com/noimage.jpg",
-      "id": 10
     }
   ],
   "doctors": [

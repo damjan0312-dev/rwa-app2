@@ -13,6 +13,9 @@ import Doctors from './components/doctorComponents/Doctors';
 import TheirAnimals from './components/doctorComponents/TheirAnimals';
 
 import Navbars from './components/layouts/Navbar';
+import Footer from './components/layouts/Footer';
+import About from './components/layouts/About';
+
 
 import history from './history';
 
@@ -32,6 +35,7 @@ class App extends Component {
 									<Navbars />
 									<AnimalForm />
 									<Animals />
+									<Footer />
 								</div>
 							)}
 						/>
@@ -41,6 +45,7 @@ class App extends Component {
 								<div>
 									<Navbars />
 									<AnimalDetail />
+									<Footer />
 								</div>
 							)}
 						/>
@@ -51,6 +56,17 @@ class App extends Component {
 									<Navbars />
 									<Doctors />
 									<TheirAnimals />
+									<Footer />
+								</div>
+							)}
+						/>
+						<Route 
+							path="/about" 
+							render={() => (
+								<div>
+									<Navbars />
+									<About />
+									<Footer />
 								</div>
 							)}
 						/>

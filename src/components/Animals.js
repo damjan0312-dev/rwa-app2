@@ -14,6 +14,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 import '../style/home.css';
 
 class Animals extends Component {
+
 	componentDidMount() {
 		this.props.requestAnimals();
 	}
@@ -30,12 +31,27 @@ class Animals extends Component {
 			this.props.deleteAnimal(id);
 	};
 
-	render() {
-	
+	updateSearch = (event) => {
+		this.setState({search: event.target.value.substr(0, 20)});
+	}
 
-		return this.props.animals.length ? (
+	render() {
+
+		let myAnimals = this.props.animals;
+
+		return myAnimals.length ? (
+			<div>
+				<Row className="mt-4 mr-5 ml-5">
+					<input 
+					id="search" 
+					className="form-control" 
+					placeholder="SearchAnimals"
+					onChange={this.updateSearch}
+					/>
+				</Row>
+		
 			<Row>
-				{this.props.animals.map(animal => (
+				{myAnimals.map(animal => (
 					<Col key={animal.id}>
 						<Card id="cards" className="mr-2 ml-5 mt-5" style={{ width: '18rem' }}>
 							<Card.Img variant="top" src={animal.animalPicture} />
@@ -61,6 +77,9 @@ class Animals extends Component {
 					</Col>
 				))}
 			</Row>
+
+			</div>
+			
 		) : (
 			<h1>Please wait...</h1>
 		);

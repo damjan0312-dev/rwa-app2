@@ -1,123 +1,131 @@
 {
-	"animals": [
-		{
-			"id": 1,
-			"animalName": "Bryant",
-			"animalSpecies": "Crab-eating raccoon",
-			"animalScientificName": "Procyon cancrivorus",
-			"animalStateDescription": "Displaced fracture of anterior process of unspecified calcaneus, initial encounter for open fracture",
-			"animalPicture": "https://images.thestar.com/tmfDhhxV8xgR_4utXn6x3GgxtaA=/400x300/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/insight/2016/03/07/the-sound-that-strikes-fear-into-a-raccoons-heart/raccoon-foraging.jpg",
-			"doctorID": 2
-		},
-		{
-			"id": 2,
-			"animalName": "Bobbee",
-			"animalSpecies": "Girafee",
-			"animalScientificName": "Isoodon obesulus",
-			"animalStateDescription": "Osteopathies in diseases classified elsewhere",
-			"animalPicture": "http://myscienceschool.org/uploads/Rothschilds_giraffe.serendipityThumb.jpg",
-			"doctorID": 1
-		},
-		{
-			"id": 3,
-			"animalName": "Wanids",
-			"animalSpecies": "White-throated monitor",
-			"animalScientificName": "Varanus albigularis",
-			"animalStateDescription": "Puncture wound without foreign body of other part of head, subsequent encounter",
-			"animalPicture": "https://www.pet-lizard.com/images/bearded-dragon01.jpg",
-			"doctorID": 1
-		},
-		{
-			"id": 4,
-			"animalName": "Julianne",
-			"animalSpecies": "Lion Cub",
-			"animalScientificName": "Vanessa indica",
-			"animalStateDescription": "Supervision of pregnancy with other poor reproductive or obstetric history, first trimester",
-			"animalPicture": "https://imgc.artprintimages.com/img/print/lion-cub-in-africa_u-l-p3fire0.jpg",
-			"doctorID": 1
-		},
-		{
-			"id": 5,
-			"animalName": "Pancho",
-			"animalSpecies": "Eagle owl",
-			"animalScientificName": "Bubo sp.",
-			"animalStateDescription": "Monocular exotropia, right eye",
-			"animalPicture": "https://i.pinimg.com/originals/e7/69/cd/e769cdcb17027b796733dbb97f15fd0e.jpg",
-			"doctorID": 2
-		},
-		{
-			"id": 6,
-			"animalName": "Rafael",
-			"animalSpecies": "Dove, mourning collared",
-			"animalScientificName": "Streptopelia decipiens",
-			"animalStateDescription": "Unspecified superficial injury of forearm",
-			"animalPicture": "https://www.birdsoutsidemywindow.org/wp-content/uploads/2014/07/MODO_0006_rsz_ct1.jpg",
-			"doctorID": 3
-		},
-		{
-			"id": 7,
-			"animalName": "Haley",
-			"animalSpecies": "African jacana",
-			"animalScientificName": "Actophilornis africanus",
-			"animalStateDescription": "Neoplasm of uncertain behavior of left ovary",
-			"animalPicture": "https://a4.pbase.com/g6/35/632935/3/72500958.ld8EpWxH.jpg",
-			"doctorID": 4
-		},
-		{
-			"id": 8,
-			"animalName": "Coral",
-			"animalSpecies": "White Tiger",
-			"animalScientificName": "Choloepus hoffmani",
-			"animalStateDescription": "Superficial foreign body of unspecified shoulder",
-			"animalPicture": "http://animalstime.com/wp-content/uploads/2012/04/white-tigers2-e1359365918914.jpg",
-			"doctorID": 4
-		},
-		{
-			"animalName": "Jack",
-			"animalSpecies": "Kangaroo",
-			"animalScientificName": "Kangaroo",
-			"animalStateDescription": " Displaced fracture of anterior process of unspecified calcaneus, initial encounter for open fracture",
-			"animalPicture": "https://turntable.kagiso.io/images/Kangaroo_johnny_bravo.width-400.jpg",
-			"id": 9,
-			"doctorID": 3
-		}
-	],
-	"doctors": [
-		{
-			"id": 1,
-			"first_name": "Thomas",
-			"last_name": "Sargint",
-			"gender": "Male",
-			"email": "tsargint0@scribd.com",
-			"hospital": "Rempel-Funk",
-			"picture": "http://centersite.com.br/~projetos/biotech/images/doctor/docotor_single.jpg"
-		},
-		{
-			"id": 2,
-			"first_name": "Angelique",
-			"last_name": "Fost",
-			"gender": "Female",
-			"email": "afost1@ed.gov",
-			"hospital": "Pfannerstill Group",
-			"picture": "https://t3.ftcdn.net/jpg/00/60/54/24/500_F_60542446_ZPPBfDoion8u4IM17ffDUjyfzbbukFjA.jpg"
-		},
-		{
-			"id": 3,
-			"first_name": "Casar",
-			"last_name": "Stivens",
-			"gender": "Male",
-			"email": "cstivens2@hibu.com",
-			"hospital": "Marks and Sons",
-			"picture": "https://www.crushpixel.com/static12/preview2/portrait-smiling-handsome-doctor-790660.jpg"
-		},
-		{
-			"id": 4,
-			"first_name": "Mack",
-			"last_name": "Bernhardt",
-			"gender": "Male",
-			"email": "mbernhardt3@slate.com",
-			"hospital": "Roob, Gleichner and Green",
-			"picture": "https://www.optimoda.es/wp-content/uploads/2019/02/doctor-jorge-garcia.jpg"
-		}
-	]
+  "animals": [
+    {
+      "id": 1,
+      "animalName": "Bryant",
+      "animalSpecies": "Crab-eating raccoon",
+      "animalScientificName": "Procyon cancrivorus",
+      "animalStateDescription": "Displaced fracture of anterior process of unspecified calcaneus, initial encounter for open fracture",
+      "animalPicture": "https://images.thestar.com/tmfDhhxV8xgR_4utXn6x3GgxtaA=/400x300/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/insight/2016/03/07/the-sound-that-strikes-fear-into-a-raccoons-heart/raccoon-foraging.jpg",
+      "doctorID": 2
+    },
+    {
+      "id": 2,
+      "animalName": "Bobbee",
+      "animalSpecies": "Girafee",
+      "animalScientificName": "Isoodon obesulus",
+      "animalStateDescription": "Osteopathies in diseases classified elsewhere",
+      "animalPicture": "http://myscienceschool.org/uploads/Rothschilds_giraffe.serendipityThumb.jpg",
+      "doctorID": 1
+    },
+    {
+      "id": 3,
+      "animalName": "Wanids",
+      "animalSpecies": "White-throated monitor",
+      "animalScientificName": "Varanus albigularis",
+      "animalStateDescription": "Puncture wound without foreign body of other part of head, subsequent encounter",
+      "animalPicture": "https://www.pet-lizard.com/images/bearded-dragon01.jpg",
+      "doctorID": 1
+    },
+    {
+      "id": 4,
+      "animalName": "Julianne",
+      "animalSpecies": "Lion Cub",
+      "animalScientificName": "Vanessa indica",
+      "animalStateDescription": "Supervision of pregnancy with other poor reproductive or obstetric history, first trimester",
+      "animalPicture": "https://imgc.artprintimages.com/img/print/lion-cub-in-africa_u-l-p3fire0.jpg",
+      "doctorID": 1
+    },
+    {
+      "id": 5,
+      "animalName": "Pancho",
+      "animalSpecies": "Eagle owl",
+      "animalScientificName": "Bubo sp.",
+      "animalStateDescription": "Monocular exotropia, right eye",
+      "animalPicture": "https://i.pinimg.com/originals/e7/69/cd/e769cdcb17027b796733dbb97f15fd0e.jpg",
+      "doctorID": 2
+    },
+    {
+      "id": 6,
+      "animalName": "Rafael",
+      "animalSpecies": "Dove, mourning collared",
+      "animalScientificName": "Streptopelia decipiens",
+      "animalStateDescription": "Unspecified superficial injury of forearm",
+      "animalPicture": "https://www.birdsoutsidemywindow.org/wp-content/uploads/2014/07/MODO_0006_rsz_ct1.jpg",
+      "doctorID": 3
+    },
+    {
+      "id": 7,
+      "animalName": "Haley",
+      "animalSpecies": "African jacana",
+      "animalScientificName": "Actophilornis africanus",
+      "animalStateDescription": "Neoplasm of uncertain behavior of left ovary",
+      "animalPicture": "https://a4.pbase.com/g6/35/632935/3/72500958.ld8EpWxH.jpg",
+      "doctorID": 4
+    },
+    {
+      "id": 8,
+      "animalName": "Coral",
+      "animalSpecies": "White Tiger",
+      "animalScientificName": "Choloepus hoffmani",
+      "animalStateDescription": "Superficial foreign body of unspecified shoulder",
+      "animalPicture": "http://animalstime.com/wp-content/uploads/2012/04/white-tigers2-e1359365918914.jpg",
+      "doctorID": 4
+    },
+    {
+      "animalName": "Jack",
+      "animalSpecies": "Kangaroo",
+      "animalScientificName": "Kangaroo",
+      "animalStateDescription": " Displaced fracture of anterior process of unspecified calcaneus, initial encounter for open fracture",
+      "animalPicture": "https://turntable.kagiso.io/images/Kangaroo_johnny_bravo.width-400.jpg",
+      "id": 9,
+      "doctorID": 3
+    },
+    {
+      "animalName": "",
+      "animalSpecies": "",
+      "animalScientificName": "",
+      "animalStateDescription": "",
+      "animalPicture": "http://izuum.com/noimage.jpg",
+      "id": 10
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "first_name": "Thomas",
+      "last_name": "Sargint",
+      "gender": "Male",
+      "email": "tsargint0@scribd.com",
+      "hospital": "Rempel-Funk",
+      "picture": "http://centersite.com.br/~projetos/biotech/images/doctor/docotor_single.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Angelique",
+      "last_name": "Fost",
+      "gender": "Female",
+      "email": "afost1@ed.gov",
+      "hospital": "Pfannerstill Group",
+      "picture": "https://t3.ftcdn.net/jpg/00/60/54/24/500_F_60542446_ZPPBfDoion8u4IM17ffDUjyfzbbukFjA.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Casar",
+      "last_name": "Stivens",
+      "gender": "Male",
+      "email": "cstivens2@hibu.com",
+      "hospital": "Marks and Sons",
+      "picture": "https://www.crushpixel.com/static12/preview2/portrait-smiling-handsome-doctor-790660.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Mack",
+      "last_name": "Bernhardt",
+      "gender": "Male",
+      "email": "mbernhardt3@slate.com",
+      "hospital": "Roob, Gleichner and Green",
+      "picture": "https://www.optimoda.es/wp-content/uploads/2019/02/doctor-jorge-garcia.jpg"
+    }
+  ]
 }

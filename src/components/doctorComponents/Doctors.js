@@ -5,7 +5,9 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { fetchDoctors } from '../../actions/doctorActions';
+import { fetchDoctors, doctorsAnimals } from '../../actions/doctorActions';
+
+
 
 // react-bootstrap
 import { Row, Col, Card, Button } from 'react-bootstrap';
@@ -15,11 +17,16 @@ import '../../style/home.css'
 class Doctors extends Component {
 	componentDidMount() {
 		this.props.fetchDoctors();
-	}
+    }
+    
+
+    getTheirAnimals = (id) => {
+        this.props.doctorsAnimals(id);
+    }
+
 
 	render() {
-		let result = [...this.props.doctors];
-
+        
 		return this.props.doctors.length ? (
 			<div>
 				<div id="cardsDR" className="d-flex justify-content-center display-4">Our Doctors</div>
@@ -43,7 +50,11 @@ class Doctors extends Component {
 										{doctors.email}
 									</Card.Text>
 
-									<button className="btn btn-outline-success"> See Doctor's Animals</button>
+                                    <button 
+                                    onClick={() => this.getTheirAnimals(doctors.id)}
+                                    className="btn btn-outline-success"> 
+                                    See Doctor's Animals
+                                    </button>
 								</Card.Body>
 							</Card>
 						</Col>
@@ -59,14 +70,15 @@ class Doctors extends Component {
 
 Doctors.propTypes = {
 	fetchDoctors: PropTypes.func.isRequired,
-	doctors: PropTypes.array.isRequired,
+    doctors: PropTypes.array.isRequired,
+    doctorsAnimals: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => ({
 	doctors: state.doctors_reducer.doctors,
 });
 
-const mapDispatchToProps = dispatch => bindActionCreators({ fetchDoctors }, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators({ fetchDoctors, doctorsAnimals }, dispatch);
 
 export default connect(
 	mapStateToProps,

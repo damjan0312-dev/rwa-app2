@@ -8,6 +8,7 @@ import { watchNewAnimalRequest } from './newAnimalSaga';
 import { watchSelectedAnimal } from './selectAnimalSaga';
 import { watchDeleteAnimalRequest } from './deleteAnimalSaga';
 import { watchFetchDoctors } from './doctorSagas/fetchDoctorsSaga';
+import { watchDoctorsAnimals } from './doctorSagas/doctorsAnimalsSaga';
 
 
 function* getAnimals(action) {
@@ -40,7 +41,8 @@ export default function* rootSaga(){
         fork(watchNewAnimalRequest),
         fork(watchSelectedAnimal),
         fork(watchDeleteAnimalRequest),
-        fork(watchFetchDoctors)
+        fork(watchFetchDoctors),
+        fork(watchDoctorsAnimals)
 
     ]);
 }

@@ -10,10 +10,12 @@ import Animals from './components/Animals';
 import AnimalForm from './components/AnimalForm';
 import AnimalDetail from './components/AnimalDetails';
 import Doctors from './components/doctorComponents/Doctors';
+import TheirAnimals from './components/doctorComponents/TheirAnimals';
 
 import Navbars from './components/layouts/Navbar';
 
 import history from './history';
+
 
 class App extends Component {
 	render() {
@@ -48,6 +50,7 @@ class App extends Component {
 								<div>
 									<Navbars />
 									<Doctors />
+									<TheirAnimals />
 								</div>
 							)}
 						/>

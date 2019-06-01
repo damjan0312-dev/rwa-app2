@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import store from './store/store';
 
-import { BrowserRouter, Route, Router } from 'react-router-dom';
+import {Route, Router } from 'react-router-dom';
 
 //my imports
 import Animals from './components/Animals';

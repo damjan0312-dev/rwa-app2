@@ -10,7 +10,7 @@ import { fetchDoctors, doctorsAnimals } from '../../actions/doctorActions';
 
 
 // react-bootstrap
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Col, Card} from 'react-bootstrap';
 
 import '../../style/home.css'
 

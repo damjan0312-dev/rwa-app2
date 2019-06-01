@@ -1,15 +1,6 @@
 {
   "animals": [
     {
-      "id": 1,
-      "animalName": "Bryant",
-      "animalSpecies": "Crab-eating raccoon",
-      "animalScientificName": "Procyon cancrivorus",
-      "animalStateDescription": "Displaced fracture of anterior process of unspecified calcaneus, initial encounter for open fracture",
-      "animalPicture": "https://images.thestar.com/tmfDhhxV8xgR_4utXn6x3GgxtaA=/400x300/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/news/insight/2016/03/07/the-sound-that-strikes-fear-into-a-raccoons-heart/raccoon-foraging.jpg",
-      "doctorID": 2
-    },
-    {
       "id": 2,
       "animalName": "Bobbee",
       "animalSpecies": "Girafee",
@@ -80,6 +71,15 @@
       "animalPicture": "https://turntable.kagiso.io/images/Kangaroo_johnny_bravo.width-400.jpg",
       "id": 9,
       "doctorID": 3
+    },
+    {
+      "animalName": "Johnny",
+      "animalSpecies": "Panda",
+      "animalScientificName": "Ailuropoda melanoleuca",
+      "animalStateDescription": "Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections",
+      "animalPicture": "https://media.treehugger.com/assets/images/2011/11/panda-poo-tea.jpg.400x300_q90_crop-smart.jpg",
+      "doctorID": 2,
+      "id": 10
     }
   ],
   "doctors": [

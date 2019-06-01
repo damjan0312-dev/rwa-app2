@@ -1,11 +1,9 @@
 import React from 'react';
 
 // react-bootstrap
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Col, Card} from 'react-bootstrap';
 
 import '../../style/home.css';
-
-import FontPicker from 'font-picker-react';
 
 export default function About() {
 	return (
@@ -16,16 +14,19 @@ export default function About() {
 						<p className="display-4"> OUR STAFF</p>
 					</Col>
 				</Row>
-				<Row className="d-flex justify-content-center"> 
-					<Col xs={8}>
+				<Row className="d-flex justify-content-center pt-4 pb-4"> 
+					<Col xs={6}>
 						<Card.Img
 							className="thisOne"
 							variant="top"
-							src="http://kingsburgvet.com/wp-content/uploads/2015/07/Kingsburg-Vet-open.jpg"
+							src="https://cdn11.g5search.com/assets/399394/Team_Photo.png?1503425033"
 						/>
+						
 					</Col>
 				</Row>
+				<hr/>
 			</section>
+			
 			<section className="objects">
 				<Row>
                 <Col xs={12} className="d-flex justify-content-center">
@@ -40,6 +41,7 @@ export default function About() {
 							src="https://kenmorevet.com/wp-content/uploads/2016/01/slider.jpg"
 						/>
 					</Col>
+					
 					<Col xs={7} className="text-justify " style={{ fontSize: '1em' }}>
 						It is a long established fact that a reader will be distracted by the readable content of a page
 						when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
@@ -50,7 +52,7 @@ export default function About() {
 						purpose (injected humour and the like).
 					</Col>
 				</Row>
-
+				<hr/>
 				<Row className="pt-5 ml-3">
 					<Col xs={5}>
 						<Card.Img
@@ -69,7 +71,7 @@ export default function About() {
 						purpose (injected humour and the like).
 					</Col>
 				</Row>
-
+				<hr/>
 				<Row className="pt-5 ml-3">
 					<Col xs={5}>
 						<Card.Img

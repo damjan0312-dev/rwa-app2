@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 // redux, react-redux
 import { connect } from 'react-redux';
 
 // react-bootstrap
-import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Row, Col, Card} from 'react-bootstrap';
 
 class TheirAnimals extends Component {
     render() {
@@ -31,7 +30,7 @@ class TheirAnimals extends Component {
 				))}
 			</Row>
 		) : (
-			<h1></h1>
+			<h5>*Choose a doctor</h5>
 		);
 	}
 }

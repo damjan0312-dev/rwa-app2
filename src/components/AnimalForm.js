@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 // react-bootstrap
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 
 //css
 import '../style/home.css';
@@ -19,7 +19,7 @@ class AnimalForm extends Component {
 			species: '',
 			scientificName: '',
 			illnes: '',
-			doctorID: 4,
+			doctorID: 1,
 		};
 
 		this.onChange = this.onChange.bind(this);
@@ -38,7 +38,7 @@ class AnimalForm extends Component {
 			animalScientificName: this.state.scientificName,
 			animalStateDescription: this.state.illnes,
 			animalPicture: 'http://izuum.com/noimage.jpg',
-			doctorID: 1,
+			doctorID: this.state.doctorID,
 		};
 
 		this.props.newAnimalRequest(newAnimal);
@@ -49,8 +49,6 @@ class AnimalForm extends Component {
 			<Row id="add-section">
 				<Col xs={6}>
 					<p className="h5 pt-5">
-						Animal DayCare Hospital has the pleasure of working some of the best organizations working
-						to bring kindness to our animal friends.
 					</p>
 				</Col>
 				<Col xs={6}>
@@ -103,6 +101,20 @@ class AnimalForm extends Component {
 									value={this.state.illnes}
 									placeholder="Illnes"
 								/>
+							</div>
+							<br />
+							<div>
+								<label>Doctor:</label>
+								<select 
+								name="doctorID" 
+								class="form-control"
+								onChange={this.onChange}
+								>
+									<option value={1}>Thomas Sargint</option>
+									<option value={2}>Angelique Fost</option>
+									<option value={3}>Casar Stivens</option>
+									<option value={4}>Mack Bernhardt</option>
+								</select>
 							</div>
 
 							{/*    <input type="submit" className="btn btn-outline-primary" value="check"/> */}

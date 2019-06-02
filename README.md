@@ -1,3 +1,11 @@
+## APLIKACIJA RWA 2019 (DRUGI PROJEKAT) 
+## REACT, REACT-ROUTER, REDUX, REDUX SAGA, REACT-BOOTSTRAP
+## DAMJAN MLADENOVIC, 16237
+
+Zavrseno 2.6.2019. godine
+
+-----------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

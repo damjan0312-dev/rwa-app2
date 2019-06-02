@@ -63,7 +63,7 @@ class Animals extends Component {
 		return myAnimals.length ? (
 			<div>
 				<Row className="mt-4 mr-5 ml-5">
-					<p className="display-4"> Search Animals <small> Species or Name </small></p>
+					<p className="display-4"> Search Animals By <small> Species or Name </small></p>
 					<input
 						id="search"
 						className="form-control"
